@@ -15,14 +15,14 @@ public class Test {
 
         System.out.println(daysOfTheWeek);
 
-        Set<String> daysOfTheWeekSave =  new TreeSet<>();
-        daysOfTheWeekSave.add("a- Lunedi");
-        daysOfTheWeekSave.add("b- Martedi");
-        daysOfTheWeekSave.add("c- Mercoledi");
-        daysOfTheWeekSave.add("d- Giovedi");
-        daysOfTheWeekSave.add("e- Venerdi");
-        daysOfTheWeekSave.add("f- Sabato");
-        daysOfTheWeekSave.add("g- Domenica");
+        LinkedHashSet<String> daysOfTheWeekSave = new LinkedHashSet<>();
+        daysOfTheWeekSave.add("Lunedi");
+        daysOfTheWeekSave.add("Martedi");
+        daysOfTheWeekSave.add("Mercoledi");
+        daysOfTheWeekSave.add("Giovedi");
+        daysOfTheWeekSave.add("Venerdi");
+        daysOfTheWeekSave.add("Sabato");
+        daysOfTheWeekSave.add("Domenica");
 
         System.out.println(daysOfTheWeekSave);
 
