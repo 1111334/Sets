@@ -27,8 +27,11 @@ public class Test {
         System.out.println(daysOfTheWeekSave);
 
         //Is the first Set equal to the second one?
-        System.out.println("no it's not the same hashset it doesn't preserve the insertion order of the days of the week\n" +
-                "TreeSet instead allows you to do it");
+         if (daysOfTheWeek.equals(daysOfTheWeekSave)) {
+            System.out.println("The first Set is equal to the second.");
+        } else {
+            System.out.println("The first Set is not the same as the second.");
+        }
 
 
     }
